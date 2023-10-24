@@ -139,6 +139,7 @@ const links = [
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
+      <my-component></my-component>
       <h1 style={headingStyles}>
         Congratulations
         <br />
